@@ -4,6 +4,6 @@ node {
         git branch: 'main', url: 'https://github.com/shovalg/jenkins-Ex.1.git'
     }
     stage ("shared files"){
-        bat dir
+        bat "dir"
     }
 }
